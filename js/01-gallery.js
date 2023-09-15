@@ -30,7 +30,6 @@ const galleryItemsMarkup = (arr) =>
 const listClickHandler = (e) => {
     // console.log(e);
     e.preventDefault();
-    if (e.currentTarget === e.target) return;
     if (e.target.nodeName !== 'IMG') return;
 
     //close modal by Esc
